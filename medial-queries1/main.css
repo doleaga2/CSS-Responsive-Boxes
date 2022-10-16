@@ -1,3 +1,41 @@
 body {
   background: blanchedalmond;
 }
+
+.container{
+background-color: rgba(0, 0, 0, 0.337);
+margin: 10px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.a{
+  background-color: palevioletred;
+  margin: 10px;
+display: flex;
+flex-direction: row;
+height: 5em;
+
+}
+
+.b{
+  background-color: rgba(137, 43, 226, 0.405);
+margin: 10px;
+flex-direction: row;
+height: 8em;
+width: 40em;
+display: flex ;
+
+}
+
+.c{
+  background-color: rgba(255, 0, 0, 0.416);
+margin: 10px;
+flex-direction: row;
+height: 8em;
+width:10em;
+display: flex;
+float: right;
+flex-wrap: wrap-reverse;
+}
